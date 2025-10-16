@@ -5,8 +5,8 @@ import { ReactNode } from "react";
 
 export const metadata: Metadata = {
   title: {
-    template: "Snap UI = Open Source Components",
-    default: "Snap UI",
+    template: "Draven UI = Open Source Components",
+    default: "Draven UI",
   },
 };
 

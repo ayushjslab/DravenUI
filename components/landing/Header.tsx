@@ -22,7 +22,7 @@ const Header = () => {
                   <Link href={"/"} className="flex items-center gap-2">
                     <Flame className="w-6 h-6 text-green-500 dark:text-green-400" />
                     <span className="hidden sm:block font-semibold">
-                      SnapUI
+                      DravenUI
                     </span>
                   </Link>
                   <span className="hidden sm:flex text-zinc-300 dark:text-zinc-700">
