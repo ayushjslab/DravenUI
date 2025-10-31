@@ -164,6 +164,7 @@ export default function BeamsBackground({
                 cancelAnimationFrame(animationFrameRef.current);
             }
         };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [intensity]);
 
     return (

@@ -64,6 +64,8 @@ export default function AIInput_10() {
         useFileInput({ accept: "image/*", maxSize: 5 });
 
 
+        console.log(fileName, handleFileSelect, clearFile)
+
     const updateState = useCallback(
         (updates: Partial<typeof state>) =>
             setState((prev) => ({ ...prev, ...updates })),

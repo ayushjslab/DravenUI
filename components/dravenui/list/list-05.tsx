@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { cn } from "@/lib/utils";
 import { Play, MoreHorizontal, Heart, Clock, Music2 } from "lucide-react";
 

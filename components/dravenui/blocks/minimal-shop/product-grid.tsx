@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { motion } from "motion/react";
 import { type Product } from "./data";
 

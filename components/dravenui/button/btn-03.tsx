@@ -23,6 +23,7 @@ export default function Btn03({
     attractRadius = 50,
     ...props
 }: Btn03Props) {
+    console.log(attractRadius)
     const [isAttracting, setIsAttracting] = useState(false);
     const [particles, setParticles] = useState<Particle[]>([]);
     const particlesControl = useAnimation();

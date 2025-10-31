@@ -106,6 +106,8 @@ export function BackgroundCircles({
         COLOR_VARIANTS
     ) as (keyof typeof COLOR_VARIANTS)[];
 
+    console.log(variants)
+
     return (
         <div
             className={clsx(

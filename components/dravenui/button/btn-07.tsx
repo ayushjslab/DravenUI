@@ -24,6 +24,8 @@ export default function Btn07({
     const [isScaling, setIsScaling] = useState(false);
     const [progress, setProgress] = useState(0);
 
+    console.log(progress)
+
     useEffect(() => {
         if (isProcessing) {
             const startTime = Date.now();

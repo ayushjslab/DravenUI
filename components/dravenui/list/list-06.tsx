@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { cn } from "@/lib/utils";
 import { Heart, MessageCircle, MoreHorizontal } from "lucide-react";
 
@@ -40,7 +41,7 @@ export default function List06() {
                 </div>
                 <p className="text-sm text-zinc-600 dark:text-zinc-300 leading-normal">
                     The new AI features in Figma are incredible! Just tried the
-                    new variables system - it's a game changer for design
+                    new variables system - it&apos;s a game changer for design
                     systems. 🎨
                 </p>
             </div>
@@ -107,7 +108,7 @@ export default function List06() {
                             </div>
                             <p className="text-sm text-zinc-600 dark:text-zinc-300">
                                 Have you tried the new component variants?
-                                They're perfect for theming!
+                                They&apos;re perfect for theming!
                             </p>
                             <div className="flex items-center gap-3">
                                 <button

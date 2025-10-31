@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { motion } from "motion/react";
 import { X } from "lucide-react";
 import { type CartItem } from "./data";

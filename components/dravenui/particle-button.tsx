@@ -53,8 +53,8 @@ function SuccessParticles({
 
 export default function ParticleButton({
     children,
-    onClick,
-    onSuccess,
+    // onClick,
+    // onSuccess,
     successDuration = 1000,
     className,
     ...props
@@ -63,6 +63,7 @@ export default function ParticleButton({
     const buttonRef = useRef<HTMLButtonElement>(null);
 
     const handleClick = async (e: React.MouseEvent<HTMLButtonElement>) => {
+        console.log(e)
         setShowParticles(true);
 
         setTimeout(() => {

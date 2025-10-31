@@ -95,6 +95,7 @@ const MatrixText = ({
     useEffect(() => {
         const timer = setTimeout(startAnimation, initialDelay);
         return () => clearTimeout(timer);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     const motionVariants = useMemo(

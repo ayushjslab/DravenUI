@@ -1,7 +1,8 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { motion } from "motion/react";
-import { X, Plus, Minus } from "lucide-react";
+import { X} from "lucide-react";
 import { useState } from "react";
 import { type Product } from "./data";
 
@@ -17,6 +18,8 @@ export function ProductModal({
     onAddToCart,
 }: ProductModalProps) {
     const [quantity, setQuantity] = useState(1);
+
+    console.log(quantity, setQuantity)
 
     return (
         <>

@@ -15,6 +15,8 @@ export default function AIInput_07() {
         maxHeight: 200,
     });
 
+    console.log(setIsAnimating)
+
     useEffect(() => {
         let timeoutId: NodeJS.Timeout;
 

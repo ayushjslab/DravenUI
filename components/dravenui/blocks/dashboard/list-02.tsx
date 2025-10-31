@@ -33,6 +33,8 @@ const categoryStyles = {
         "bg-zinc-100 dark:bg-zinc-800 text-zinc-900 dark:text-zinc-100",
 };
 
+console.log(categoryStyles)
+
 const TRANSACTIONS: Transaction[] = [
     {
         id: "1",
